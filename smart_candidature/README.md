@@ -1,3 +1,6 @@
+[![CI](https://github.com/tititaya/candidature_intelligente/actions/workflows/ci.yml/badge.svg)](https://github.com/tititaya/candidature_intelligente/actions)
+
+
 # 🤖 smart_candidature
 
 Assistant intelligent pour candidatures spontanées automatisées 📬  
@@ -26,3 +29,22 @@ Automatiser tout le processus de candidature :
 Python, SQLite/PostgreSQL, Streamlit, Selenium, requests, dotenv, schedule, Docker, GitHub Actions
 
 ## 🚀 Lancer le projet
+```bash
+# Cloner le repo
+git clone git@github.com:tititaya/smart_candidature.git
+cd smart_candidature
+
+conda create -n smart_candidature python=3.11
+conda activate smart_candidature
+
+# Installer les dépendances
+pip install -r requirements.txt
+
+# Lancer le dashboard
+streamlit run interface/dashboard.py
+```
+
+## 📍 Roadmap
+## 📂 Structure du projet
+Voir [`STRUCTURE.md`](https://github.com/tititaya/smart_candidature/blob/main/STRUCTURE.md) pour l’arborescence complète.
+
